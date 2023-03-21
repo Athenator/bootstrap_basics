@@ -98,3 +98,10 @@ footer{
     padding: 30px 0;
 }
 
+#scroll_top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
