@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/bootstrap.min.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static',filename='img/icon_athena.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/fontello.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+    {% block link %} {% endblock %}
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+    <header id="header">
+      <div class="container text-center">
+        <h1 class="text-black">Bootstrap basics</h1>
+        <div class="row align-items-center row-cols-auto ">
+          <div class="col">
+            <div class="itd_play" data-bs-toggle="modal" data-bs-target="#myModal">
+              <div class="itd_triangle"></div>
+          </div>
+        </div>
+          <div class="col">
+            <a href="/home#deity" class="btn btn-itd btn-lg text-uppercase">Божества</a>
+          </div>
+          <div class="col">
+            <a href="/" class="btn btn-itd btn-lg text-uppercase">Главная</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    {% block body %}
+    {% endblock %}
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="https://github.com/Athenator" target="_blank" class="btn btn-outline-light"><i class="icon-github-circled"></i></a>
+            <a href="https://vk.com/id181584484" target="_blank" class="btn btn-outline-light"><i class="icon-vkontakte"></i></a>
+            <a href="https://t.me/SirRuse" target="_blank" class="btn btn-outline-light"><i class="icon-paper-plane"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Модальное окно -->
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Мифы древней греции</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="embed-container"><iframe src="https://www.youtube.com/embed/rizWUWQKSH4" frameborder="0" allowfullscreen></iframe></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </footer>
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+</body>
+</html>

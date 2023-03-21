@@ -1,0 +1,243 @@
+{% extends "base.html" %}
+
+{% block link %}
+    <link rel="stylesheet" href="/static/css/index_style.css"> 
+{% endblock %}
+
+{% block title %}
+Mythical deity
+{% endblock %}
+
+{% block body %}
+<!-- Головной блок с информацией  -->
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center text-uppercase color2 mb-5">мифология Древней Греции</h2>
+                <p>Древнейшее состояние греческой мифологии известно из табличек эгейской культуры, записанных линейным письмом Б. Для этого периода характерна немногочисленность богов, многие из них именуются иносказательно, у ряда имён имеются женские аналоги (например, di-wi-o-jo — Diwijos, Зевс и женский аналог di-wi-o-ja). Уже в крито-микенский период известны Зевс, Афина, Дионис и ряд других, хотя их иерархия могла отличаться от позднейшей.</p>
+                <p>Мифология «тёмных веков» (между упадком крито-микенской цивилизации и возникновением античной греческой цивилизации) известна только по позднейшим источникам.</p>
+                <p>Различные сюжеты древнегреческих мифов постоянно фигурируют в произведениях древнегреческих писателей; накануне эпохи эллинизма возникает традиция создавать на их основе собственные аллегорические мифы. В греческой драматургии обыгрываются и развиваются многие мифологические сюжеты. Крупнейшими источниками являются:</p><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_cirlce"><i class="icon-upload-cloud-outline"></i></div>
+                <h5 class="text-center">"Иллиада" и "Одиссея" Гомера</h5>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_cirlce"><i class="icon-upload-cloud-outline"></i></div>
+                <h5 class="text-center">"Теогония" Гесиода</h5>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_cirlce"><i class="icon-upload-cloud-outline"></i></div>
+                <h5 class="text-center">"Библиотека" Псевдо-Аполлодора</h5>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_cirlce"><i class="icon-upload-cloud-outline"></i></div>
+                <h5 class="text-center">"Мифы" Гигина</h5>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_cirlce"><i class="icon-upload-cloud-outline"></i></div>
+                <h5 class="text-center">"Метаморфозы" Овидия</h5>
+                <div class="line"></div>
+            </div>
+            <div class="col-xl-4 col-md-6 col-sm-12">
+                <div class="itd_cirlce"><i class="icon-upload-cloud-outline"></i></div>
+                <h5 class="text-center">"Деяния Диониса" Нонна</h5>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Раздел: ПЕРИОДИЗАЦИЯ -->
+<section class="period">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center text-uppercase color1 mb-5">Периодизация древнегреческой религии:</h2>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-sm-12">
+                <h5 class="text-center">30 — 15 вв. до н. э. — крито-минойская религия.</h5>
+            </div>
+            <div class="col-sm-12">
+                <h5 class="text-center">15 — 11 вв. до н. э. — архаическая древнегреческая религия.</h5>
+            </div>
+            <div class="col-sm-12">
+                <h5 class="text-center">11 — 6 вв. до н. э. — олимпийская религия.</h5>
+            </div>
+            <div class="col-sm-12">
+                <h5 class="text-center">6 — 4 вв. до н. э. — философско-орфическая религия (Орфей, Пифагор, Платон).</h5>
+            </div>
+            <div class="col-sm-12">
+                <h5 class="text-center">3 — 1 вв. до н. э. — религия эллинистической эпохи.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <a href="#header" class="btn btn-lg text-uppercase btn-itd">Вверх</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Аккордионы с божествами -->
+<section class="deity" id="deity">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center text-uppercase color2 mb-3">боги и мифы</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h4 class="text-center fw-bold mb-3 mt-3">Титаны и Титаниды</h4>
+                <!-- Первый аккордион -->
+                <div class="accordion accordion-flush" id="accordion1">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading11">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse11" aria-expanded="false" aria-controls="flush-collapse11">
+                            Гиперион
+                        </button>
+                      </h2>
+                      <div id="flush-collapse11" class="accordion-collapse collapse show" aria-labelledby="flush-heading11" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                            <p>Гиперион — «сияющий» бог, буквально «идущий наверху», то есть по небу, и потому отождествляется он с Гелиосом — нередко у Гомера, в эллинистической мифологии — постоянно; так, сыновья Гелиоса именуются гиперионидами.</p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headin12">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collaps12" aria-expanded="false" aria-controls="flush-collaps12">
+                          Иапет
+                        </button>
+                      </h2>
+                      <div id="flush-collaps12" class="accordion-collapse collapse" aria-labelledby="flush-headin12" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                            <p>Иапе́т, Япе́т (др.-греч. Ἰαπετός «пронзающий») — в древнегреческой мифологии один из титанов, сын Урана и Геи, супруг океаниды Климены.</p>  
+                            <a href="#">Узнать больше</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-heading13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse13" aria-expanded="false" aria-controls="flush-collapse13">
+                          Кей
+                        </button>
+                      </h2>
+                      <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13" data-bs-parent="#accordion1">
+                        <div class="accordion-body">
+                            <p>Кей (др.-греч. Κοῖος), также Кой или Кеос — в греческой мифологии титан, сын Урана и Геи, брат и муж титаниды Фебы, родившей Лето и Астерию. Древнейший обитатель острова Кос.</p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <!-- Второй аккордион -->
+                    <h4 class="text-center fw-bold mb-3 mt-3">Олимпийцы</h4>
+                    <div class="accordion accordion-flush" id="accordion2">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading21">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse21" aria-expanded="false" aria-controls="flush-collapse21">
+                            Зевс
+                        </button>
+                        </h2>
+                        <div id="flush-collapse21" class="accordion-collapse collapse" aria-labelledby="flush-heading21" data-bs-parent="#accordion2">
+                        <div class="accordion-body">
+                            <p> Зевс —  рим. Юпитер. Бог неба и грома, глава древнегреческого Пантеона.</p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headin22">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collaps22" aria-expanded="false" aria-controls="flush-collaps22">
+                            Афина
+                        </button>
+                        </h2>
+                        <div id="flush-collaps22" class="accordion-collapse collapse show" aria-labelledby="flush-headin22" data-bs-parent="#accordion2">
+                        <div class="accordion-body">
+                            <p>Афина — греч. Паллада; рим. Минерва. Богиня мудрости, справедливой войны, покровительница города Афины, ремесел.</p>  
+                            <a href="/athena">Узнать больше</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading23">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse23" aria-expanded="false" aria-controls="flush-collapse23">
+                            Посейдон
+                        </button>
+                        </h2>
+                        <div id="flush-collapse23" class="accordion-collapse collapse" aria-labelledby="flush-heading23" data-bs-parent="#accordion2">
+                        <div class="accordion-body">
+                            <p>Посейдон — рим. Нептун. Владыка морей. Средний брат Аида и Зевса.</p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- Третий аккордион -->
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-center fw-bold mb-3 mt-3">Чудовища</h4>
+                    <div class="accordion accordion-flush" id="accordion3">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading31">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse31" aria-expanded="false" aria-controls="flush-collapse31">
+                            Цербер
+                        </button>
+                        </h2>
+                        <div id="flush-collapse31" class="accordion-collapse collapse" aria-labelledby="flush-heading31" data-bs-parent="#accordion3">
+                        <div class="accordion-body">
+                            <p>Ке́рбер[1] (др.-греч. Κέρβερος) или Це́рбер (лат. Cerberus) — трёхголовый пёс, охраняющий выход из царства мёртвых в Аиде; порождение Тифона и Ехидны. </p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading32">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse32" aria-expanded="false" aria-controls="flush-collapse32">
+                            Минотавр
+                        </button>
+                        </h2>
+                        <div id="flush-collapse32" class="accordion-collapse collapse" aria-labelledby="flush-heading32" data-bs-parent="#accordion3">
+                        <div class="accordion-body">
+                            <p>Минотавр (др.-греч. Μῑνώταυρος, бык Миноса) — критское чудовище с телом человека и головой быка, жившее в Лабиринте.</p>  
+                            <a href="#">Узнать больше</a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-heading33">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse33" aria-expanded="false" aria-controls="flush-collapse33">
+                            Медуза
+                        </button>
+                        </h2>
+                        <div id="flush-collapse33" class="accordion-collapse collapse show" aria-labelledby="flush-heading33" data-bs-parent="#accordion3">
+                        <div class="accordion-body">
+                            <p> Ме́дуса, др.-греч. Μέδουσα — «защитница, повелительница» чудовище с женским лицом и змеями вместо волос. Взгляд на её лицо обращал человека в камень.</p>
+                            <a href="#">Узнать больше</a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- Конец аккордионов -->
+        </div>
+    </div>
+</section>
+{% endblock %}

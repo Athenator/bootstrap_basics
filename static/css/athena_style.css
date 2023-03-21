@@ -1,0 +1,43 @@
+.content{
+    background-color: var(--select_bg_color2);
+}
+
+.about{
+    background-color: var(--select_bg_color1);
+}
+
+.content h5 {
+    padding: 25px;
+    border: 3px solid var(--color1);
+}
+
+.arahna {
+    background-color: var(--select_bg_color1);
+}
+
+.arahna_img {
+    max-width: 560px;
+}
+
+.poseidon{
+    background-color: var(--select_bg_color2);
+}
+
+
+.rounded {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% !important;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color2);
+    margin: 15px auto 30px;
+}
+
+.figure_athena {
+    background-color: var(--select_bg_color1);
+}

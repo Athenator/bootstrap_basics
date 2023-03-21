@@ -1,0 +1,47 @@
+.about{
+    background-color: var(--select_bg_color1);
+}
+.about i {
+    font-size: 25px;
+    color: var(--color2);
+}
+.itd_cirlce{
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
+
+/* Периоды */
+.period{
+    background-color: var(--select_bg_color2);
+}
+
+.period h5 {
+    padding: 50px;
+    border: 3px solid var(--color1);
+}
+
+/* Божества */
+
+.deity{
+    background-color: var(--select_bg_color1);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-black);
+    background-color: var(--color1);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var
+    (--bs-accordion-border-color);
+    font-weight: bold;
+}
